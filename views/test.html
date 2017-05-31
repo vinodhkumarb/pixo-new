@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pixo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/account.css">
+    <link rel="stylesheet" href="/assets/css/icons.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!--     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>-->
+
+    
+    <script src="https://use.typekit.net/pkg1pwr.js"></script>
+    <script>
+        try {
+            Typekit.load({
+                async: true
+            });
+        } catch (e) {}
+    </script>
+    <style>
+    
+        
+        #cool .select2-search .select2-search--dropdown{
+            display: none;
+        }
+        
+        .btn {
+            display: none;
+        }
+    
+    </style>
+</head>
+
+<body>
+
+
+    <div class="row">
+        <div class="small-6 medium-12 large-12 columns" style="margin-top:5rem;">
+         
+         
+         
+         <button class="button">aaaaa</button>
+           <button class="button">bbbbb</button>  
+           <button class="button">ccccc</button>
+             <button class="button">ddddd</button>
+         
+
+       
+       <div class="btn" id="cool">
+           
+           <ul>
+               <li>a</li>
+               <li>1</li>
+               <li>2</li>
+               <li>3</li>
+               <li>4</li>
+               <li>5</li>
+               <li>6</li>
+           </ul>
+           
+       </div>
+       <div class="btn" id="cool">
+           
+             <ul>
+               <li>b</li>
+               <li>1</li>
+               <li>2</li>
+               <li>3</li>
+               <li>4</li>
+               <li>5</li>
+               <li>6</li>
+           </ul>
+           
+       </div>
+            <div class="btn" id="cool">
+                
+                  <ul>
+               <li>c</li>
+               <li>1</li>
+               <li>2</li>
+               <li>3</li>
+               <li>4</li>
+               <li>5</li>
+               <li>6</li>
+           </ul>
+                
+            </div>
+            <div class="btn" id="cool">
+                
+                  <ul>
+               <li>d</li>
+               <li>1</li>
+               <li>2</li>
+               <li>3</li>
+               <li>4</li>
+               <li>5</li>
+               <li>6</li>
+           </ul>
+                
+            </div>
+       
+       
+       
+       
+        </div>
+
+    </div>
+
+<script>
+    
+    
+    $(document).ready(function(){
+        
+//        $('#che').select2();
+        
+   $('button').click(function(){
+      
+       $('.btn').hide();
+       $(this).find('#cool').show();
+       
+   });
+        
+        
+        
+});
+    
+    
+  
+    
+      
+        
+    </script>
+
+
+</body>
+
+</html>

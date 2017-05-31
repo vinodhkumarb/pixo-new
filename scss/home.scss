@@ -1,0 +1,121 @@
+@charset 'utf-8';
+@import 'settings';
+@import 'foundation';
+@include foundation-global-styles;
+@include foundation-grid;
+@include foundation-typography;
+@include foundation-button;
+@include foundation-forms;
+@include foundation-menu;
+@include foundation-menu-icon;
+@include foundation-reveal;
+@include foundation-thumbnail;
+@include foundation-float-classes;
+
+/* Pixo style */
+
+header {
+    padding: $headbar-padding;
+    background: $headbar-background;
+    border-bottom: $headbar-border-bottom;
+}
+
+footer {
+    margin-top: ($global-padding * 6);
+    padding: ($global-padding * 3) 0 ($global-padding * 2) 0;
+    border-top: 1px solid #eceded;
+    background-color: $white;
+    a {
+        color: $light-gray;
+        &:hover {
+            color: $medium-gray;
+        }
+    }
+    strong {
+        color: $medium-gray;
+        line-height: $global-padding * 2;
+    }
+}
+
+
+/* main home page start */
+
+.index-body {
+    .index-heading {
+        margin-top: $global-margin * 10;
+        text-align: center;
+    }
+    .index-banner {
+        margin-top: $global-margin * 6;
+    }
+    .index-form {
+        margin-top: $global-margin * 5;
+        input:nth-child(4) {
+            margin-right: 5px;
+        }
+        .small-6.medium-6.large-6.columns:nth-child(1) {
+            padding-right: 0.5357rem;
+        }
+        .small-6.medium-6.large-6.columns:nth-child(2) {
+            padding-left: 0.5357rem;
+        }
+    }
+}
+
+.index-story {
+    h2 {
+        font-weight: lighter;
+    }
+    p {
+        // font-size: 18px;
+    }
+    margin-top: $global-margin * 4;
+    section:last-child {
+        margin-top: $global-margin * 10;
+    }
+}
+
+
+/* main home page end */
+
+
+/* test file */
+
+.cool {
+    animation-name: test;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    position: relative;
+}
+
+@keyframes test {
+    
+    30% {
+        background-color: gold;
+        padding-right: 100px;
+        
+    }
+    60% {
+        background-color: black;
+        padding-right: 200px;
+        
+    }
+    90% {
+        background-color: red;
+        padding-right: 300px;
+    }
+    100% {
+         padding-right: 0px;
+    }
+    
+    
+//    from{
+//        left: 0;
+//    }
+//    to{
+//        left: 300px;
+//    }
+    
+}

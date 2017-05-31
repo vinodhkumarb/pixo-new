@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pixo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/app_settings.css">
+    <link rel="stylesheet" href="/assets/css/icons.css">
+    <script src="https://use.typekit.net/pkg1pwr.js"></script>
+    <script>
+        try {
+            Typekit.load({
+                async: true
+            });
+        } catch (e) {}
+    </script>
+</head>
+
+<body>
+
+
+
+
+    <div class="reveal upload" id="exampleModal2" data-reveal style="display:block;width:700px;">
+        <form>
+
+
+
+            <h5>Folder Settings</h5>
+            <hr/>
+
+            <fieldset>
+                <legend>Who can manage access to this folder ?</legend>
+                <input type="radio" name="pokemon" value="Red" id="pokemonRed" required>
+                <label for="pokemonRed">People with edit permissions</label>
+                <input type="radio" name="pokemon" value="Blue" id="pokemonBlue">
+                <label for="pokemonBlue">Only owners</label>
+            </fieldset>
+
+
+
+
+            <div class="float-right clearfix">
+                <button class="button">Save Settings</button>
+                <button class="button hollow">Cancel</button>
+            </div>
+
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>

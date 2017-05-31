@@ -1,0 +1,212 @@
+@charset 'utf-8';
+@import 'settings';
+$menu-item-padding: 1rem 0.6rem;
+$menu-item-background-active: scale-color($light-gray, $lightness: 70%);
+$input-font-size: rem-calc(13);
+@import 'foundation';
+@include foundation-global-styles;
+@include foundation-grid;
+@include foundation-typography;
+@include foundation-button;
+@include foundation-forms;
+@include foundation-menu;
+@include foundation-menu-icon;
+@include foundation-float-classes;
+@include foundation-slider;
+@include foundation-label;
+
+/* pixo custom css */
+
+.menu .active > a {
+    padding: 0.5rem 0.5rem;
+    border-radius: 3px;
+}
+
+
+/* image and video css */
+
+.padding0 {
+    padding: 0px;
+}
+
+textarea {
+    resize: none;
+}
+
+
+/* image view page */
+
+
+/* image view content */
+
+.image-center-content {
+    background-color: #000;
+    height: 100%;
+    width: 75%;
+    position: relative;
+    float: left;
+    .imgs {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+    .imgs:before {
+        content: ' ';
+        display: inline-block;
+        vertical-align: middle;
+        height: 100%;
+    }
+    .imgs img {
+        vertical-align: middle;
+        display: inline-block;
+    }
+}
+
+//.image-content {
+//    width: 320px;
+//    float: right;
+//    background-color: brown;
+//    height: 100%;
+//    /* .image-content-side {
+//        padding: 2rem;
+//        background-color: $white;
+//        height: 83.3vh;
+//    } */
+//}
+.image-view {
+    height: 100vh;
+    background-color: $white;
+    position: relative;
+    width: 100%;
+    .image-headers {
+        height: 48px;
+        width: 100%;
+        background-color: $white;
+        border-bottom: 1px solid $light-gray;
+        position: absolute;
+        z-index: 1;
+    }
+    .image-body {
+        width: 100%;
+        height: 100%;
+        background-color: $white;
+        display: flex;
+        .image-section {
+            height: 100%;
+            flex: 1;
+            .image-center {
+                background-color: $white;
+                height: 100%;
+                width: 100%;
+                position: relative;
+                .imgs {
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    text-align: center;
+                    padding: 6rem 4rem 4rem 4rem;
+                }
+                .imgs:before {
+                    content: ' ';
+                    display: inline-block;
+                    vertical-align: middle;
+                    height: 100%;
+                }
+                .imgs img {
+                    vertical-align: middle;
+                    display: inline-block;
+                }
+                .image-controls {
+                    .left-control {
+                        i {
+                            cursor: pointer;
+                            position: absolute;
+                            top: 50%;
+                            left: 20px;
+                        }
+                    }
+                    .right-control {
+                        i {
+                            cursor: pointer;
+                            position: absolute;
+                            top: 50%;
+                            right: 20px;
+                        }
+                    }
+                }
+                .image-control-details {
+                    position: absolute;
+                    bottom: 0.5rem;
+                    left: 50%;
+                    border: 1px solid scale-color($light-gray, $lightness: 70%);
+                    // background-color: rgba(10, 10, 10, 0.5);
+                    margin-left: -90px;
+                    background-color: $white;
+                    box-shadow: 0 1px 3px scale-color($light-gray, $lightness: 70%);
+                    .slider {
+                        margin: $slider-margin;
+                    }
+                    li:first-child {
+                        padding: 0px 10px 0px 15px;
+                    }
+                }
+            }
+        }
+        .image-details {
+            flex: 0 0 360px;
+            height: 100%;
+            background-color: $white;
+            border-left: 1px solid scale-color($light-gray, $lightness: 70%);
+            padding-top: 5rem;
+            overflow: auto;
+            .camera-details {
+                margin-bottom: 1rem;
+                li:first-child {
+                    border: 1px solid #99a1af;
+                    border-radius: $global-radius;
+                }
+            }
+            li {
+                padding: 0rem 0.75rem;
+            }
+            .phone-details {
+                margin: 1.5rem 0rem;
+                li:first-child {
+                    padding-left: 0px;
+                }
+            }
+            .tags {
+                .tag-box {
+                    border: 1px solid scale-color($light-gray, $lightness: 70%);
+                    padding: 0.4rem 2rem 0.4rem 0.5rem;
+                    border-radius: $global-radius;
+                    cursor: pointer;
+                }
+                .icons_pixo_cancel {
+                    background: url(/assets/icons/pixo/icons_pixo_cancel.svg);
+                    background-repeat: no-repeat;
+                    background-position: right;
+                    background-size: 28px 20px;
+                    cursor: pointer;
+                }
+            }
+            .people {
+                padding: 1.5rem 0;
+                cursor: pointer;
+                img , div {
+                    width: 48px;
+                    height: 48px;
+                    display: inline;
+                    margin-left: 0.25rem;
+                    margin-bottom: 0.45rem;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

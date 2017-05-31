@@ -1,0 +1,175 @@
+@charset 'utf-8';
+@import 'settings';
+@import 'foundation';
+@include foundation-global-styles;
+@include foundation-grid;
+@include foundation-typography;
+@include foundation-button;
+@include foundation-forms;
+@include foundation-menu;
+@include foundation-menu-icon;
+@include foundation-reveal;
+@include foundation-float-classes;
+@include foundation-callout;
+
+/* Pixo style */
+
+
+/* header style */
+
+header {
+    // height: $headbar-height;
+    padding: $headbar-padding;
+    background: $headbar-background;
+    border-bottom: $headbar-border-bottom;
+    // overflow: hidden;
+}
+
+
+/* footer style */
+
+footer {
+    margin-top: ($global-padding * 6);
+    padding: ($global-padding * 3) 0 ($global-padding * 2) 0;
+    border-top: 1px solid #eceded;
+    background-color: $white;
+    a {
+        color: $light-gray;
+        &:hover {
+            color: $medium-gray;
+        }
+    }
+    strong {
+        color: $medium-gray;
+        line-height: $global-padding * 2;
+    }
+}
+
+
+/* form common filed start */
+
+@media only screen and (min-width:1000px) {
+    .form-left {
+        padding-left: 0.5357rem;
+    }
+    .form-right {
+        padding-right: 0.5357rem;
+    }
+}
+
+
+/* form common filed end */
+
+
+/* mobile , desktop , upgrade page */
+
+
+/* mobile start */
+
+.mobile-banner {
+    padding-top: $global-padding * 8;
+}
+
+.mobile-2x-size {
+    width: 200px;
+    height: 300px;
+    margin-top: 3rem;
+}
+
+.mobile-banner-2x {
+    background: url('/assets/images/features-mobile.png') no-repeat;
+    width: 200px;
+    height: 300px;
+    background-size: 200px;
+}
+
+@include breakpoint(retina) {
+    .mobile-banner-2x {
+        background: url('/assets/images/desktop.png') no-repeat;
+        width: 200px;
+        height: 300px;
+        background-size: 200px;
+    }
+}
+
+
+/* mobile end */
+
+
+/* desktop start */
+
+.desktop-banner {
+    padding-top: $global-padding * 7;
+    margin-bottom: $global-margin;
+}
+
+
+/* desktop end */
+
+
+/* upgrade st */
+
+.upgrade {
+    padding-top: $global-padding * 5;
+    section {
+        padding-bottom: $global-padding * 5;
+    }
+    button {
+        margin-top: $global-margin * 1.5;
+    }
+    .callout {
+        h5 {
+            padding-bottom: $global-padding;
+        }
+        li {
+            padding-bottom: $global-padding * 1.5;
+        }
+    }
+}
+
+
+/* upgrade end */
+
+
+/* upgrade fail st */
+
+.upgrade-fail {
+    padding-top: 4rem;
+}
+
+
+/* upgrade fail st */
+
+
+/* upgrade success st */
+
+.upgrade-success {
+    padding-top: 3rem;
+    .upgrade-banner {
+        width: 640px;
+        height: 420px;
+        margin: 0 auto;
+        .banner {
+            background: url('/assets/images/launch.png') no-repeat;
+            width: 640px;
+            height: 400px;
+            background-size: contain;
+            background-position: center;
+        }
+    }
+    img {
+        padding: 3rem 0;
+    }
+}
+
+@media screen and (max-width: 39.9375em) {
+    .upgrade-success .upgrade-banner {
+        width: 100%;
+    }
+    .upgrade-success .upgrade-banner .banner {
+        width: 100%;
+    }
+}
+
+
+/* upgrade-success end */

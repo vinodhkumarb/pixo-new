@@ -1,0 +1,398 @@
+/* -- pixo icons -- */
+
+.icons {
+    background-repeat: no-repeat !important;
+    background-size: 20px 20px !important;
+    width: 20px;
+    height: 20px;
+}
+.icons_large {
+    background-repeat: no-repeat !important;
+    background-size: 26px 26px !important;
+    width: 26px;
+    height: 26px;
+}
+i.icons_pixo_add_album {
+    background: url(/assets/icons/pixo/icons_pixo_add_album.svg);
+    @extend .icons;
+}
+
+i.icons_pixo_bach_button {
+    background: url(/assets/icons/pixo/icons_pixo_bach_button.svg);
+    @extend .icons;
+}
+
+i.icons_pixo_checkmak {
+    background: url(/assets/icons/pixo/icons_pixo_checkmak.svg);
+    @extend .icons;
+}
+
+i.icons_pixo_copy {
+    background: url(/assets/icons/pixo/icons_pixo_copy.svg);
+    @extend .icons;
+}
+
+i.icons_pixo_details {
+    background: url(/assets/icons/pixo/icons_pixo_details.svg);
+    @extend .icons;
+}
+
+i.icons_pixo_download {
+    background: url(/assets/icons/pixo/icons_pixo_download.svg);
+    @extend .icons;
+}
+
+i.icons_pixo_dropdown {
+    background: url(/assets/icons/pixo/icons_pixo_dropdown.svg);
+    @extend .icons;
+}
+
+i.icons_pixo_edit {
+    background: url(/assets/icons/pixo/icons_pixo_edit.svg);
+    @extend .icons;
+}
+
+i.icons_pixo_favourites {
+    background: url(/assets/icons/pixo/icons_pixo_favourites.svg);
+    @extend .icons;
+}
+
+i.icons_pixo_folder {
+    background: url(/assets/icons/pixo/icons_pixo_folder.svg);
+    @extend .icons;
+}
+
+i.icons_pixo_folder_lagre {
+    background: url(/assets/icons/pixo/icons_pixo_folder_lagre.svg);
+    @extend .icons;
+}
+
+i.icons_pixo_grid {
+    background: url(/assets/icons/pixo/icons_pixo_grid.svg);
+    @extend .icons;
+}
+
+i.icons_pixo_list {
+    background: url(/assets/icons/pixo/icons_pixo_list.svg);
+    @extend .icons;
+}
+
+i.icons_pixo_location {
+    background: url(/assets/icons/pixo/icons_pixo_location.svg);
+    @extend .icons;
+}
+
+i.icons_pixo_move {
+    background: url(/assets/icons/pixo/icons_pixo_move.svg);
+    @extend .icons;
+}
+
+i.icons_pixo_multiselect {
+    background: url(/assets/icons/pixo/icons_pixo_multiselect.svg);
+    @extend .icons;
+}
+
+i.icons_pixo_notifications {
+    background: url(/assets/icons/pixo/icons_pixo_notifications.svg);
+    @extend .icons;
+}
+
+i.icons_pixo_people {
+    background: url(/assets/icons/pixo/icons_pixo_people.svg);
+    @extend .icons;
+}
+
+i.icons_pixo_photos {
+    background: url(/assets/icons/pixo/icons_pixo_photos.svg);
+    @extend .icons;
+}
+
+i.icons_pixo_refresh {
+    background: url(/assets/icons/pixo/icons_pixo_refresh.svg);
+    @extend .icons;
+}
+
+i.icons_pixo_save {
+    background: url(/assets/icons/pixo/icons_pixo_save.svg);
+    @extend .icons;
+}
+
+i.icons_pixo_search {
+    background: url(/assets/icons/pixo/icons_pixo_search.svg);
+    @extend .icons;
+}
+
+i.icons_pixo_settings {
+    background: url(/assets/icons/pixo/icons_pixo_settings.svg);
+    @extend .icons;
+}
+
+i.icons_pixo_share {
+    background: url(/assets/icons/pixo/icons_pixo_share.svg);
+    @extend .icons;
+}
+
+i.icons_pixo_simple_dropdown {
+    background: url(/assets/icons/pixo/icons_pixo_simple_dropdown.svg);
+    @extend .icons;
+}
+
+i.icons_pixo_solid_dropdown {
+    background: url(/assets/icons/pixo/icons_pixo_solid_dropdown.svg);
+    @extend .icons;
+}
+
+i.icons_pixo_sort {
+    background: url(/assets/icons/pixo/icons_pixo_sort.svg);
+    @extend .icons;
+}
+
+i.icons_pixo_trash {
+    background: url(/assets/icons/pixo/icons_pixo_trash.svg);
+    @extend .icons;
+}
+
+i.icons_pixo_upload-34 {
+    background: url(/assets/icons/pixo/icons_pixo_upload-34.svg);
+    @extend .icons;
+}
+
+i.icons_pixo_videos {
+    background: url(/assets/icons/pixo/icons_pixo_videos.svg);
+    @extend .icons;
+}
+
+i.icons_pixo_download-35 {
+    background: url(/assets/icons/pixo/icons_pixo_download-35.svg);
+    @extend .icons;
+}
+
+i.icons_pixo_shared_by_me {
+    background: url(/assets/icons/pixo/icons_pixo_shared_by_me.svg);
+    @extend .icons;
+}
+
+i.icons_pixo_shared_with_me {
+    background: url(/assets/icons/pixo/icons_pixo_shared_with_me.svg);
+    @extend .icons;
+}
+
+i.icons_pixo_link {
+    background: url(/assets/icons/pixo/icons_pixo_link.svg);
+    @extend .icons;
+}
+
+i.cons_button_switch_vertical {
+    background: url(/assets/images/button_switch_vertical.svg);
+    @extend .icons;
+}
+
+
+/* nova icons */
+
+i.icons_nova_video-call-1 {
+    mask-image: url(/assets/icons/nova/line/video-call-1.svg);
+    @extend .icons;
+}
+
+i.icons_nova_location-map-1 {
+    background: url(/assets/icons/nova/line/location-map-1.svg);
+    @extend .icons;
+}
+
+i.icons_nova_camera-1 {
+    background: url(/assets/icons/nova/line/camera-1.svg);
+    @extend .icons;
+}
+
+i.icons_nova_user-male {
+    background: url(/assets/icons/nova/line/user-male.svg);
+    @extend .icons;
+}
+
+i.icons_nova_upload-computer {
+    background: url(/assets/icons/nova/line/upload-computer.svg);
+    @extend .icons;
+}
+
+i.icons_nova_settings-1 {
+    background: url(/assets/icons/nova/line/settings-1.svg);
+    @extend .icons;
+}
+
+i.icons_nova_organization-hierarchy-3 {
+    background: url(/assets/icons/nova/line/organization-hierarchy-3.svg);
+    @extend .icons;
+}
+
+i.icons_nova_bin {
+    background: url(/assets/icons/nova/line/bin.svg);
+    @extend .icons;
+}
+
+i.icons_nova_data-download-5 {
+    background: url(/assets/icons/nova/line/data-download-5.svg);
+    @extend .icons;
+}
+
+i.icons_nova_data-upload-5 {
+    background: url(/assets/icons/nova/line/data-upload-5.svg);
+    @extend .icons;
+}
+
+i.icons_nova_folder-close {
+    background: url(/assets/icons/nova/line/folder-close.svg);
+    @extend .icons;
+}
+
+
+/* ios icos */
+
+i.icons_ios_briefcase {
+    background: url(/assets/icons/ios/Outline_Version/briefcase.svg);
+    @extend .icons;
+}
+
+i.icons_ios_camera-video {
+    background: url(/assets/icons/ios/Outline_Version/camera-video.svg);
+    @extend .icons;
+}
+
+i.icons_ios_link {
+    background: url(/assets/icons/ios/Outline_Version/link.svg);
+    @extend .icons;
+}
+
+i.icons_ios_location-pin {
+    background: url(/assets/icons/ios/Outline_Version/location-pin.svg);
+    @extend .icons;
+}
+
+i.icons_ios_image {
+    background: url(/assets/icons/ios/Outline_Version/image.svg);
+    @extend .icons;
+}
+
+i.icons_ios_trash-can {
+    background: url(/assets/icons/ios/Outline_Version/trash-can.svg);
+    @extend .icons;
+}
+
+i.icons_ios_user {
+    background: url(/assets/icons/ios/Outline_Version/user.svg);
+    @extend .icons;
+}
+
+i.icons_ios_heart {
+    background: url(/assets/icons/ios/Outline_Version/heart.svg);
+    @extend .icons;
+}
+
+i.icons_ios_layers {
+    background: url(/assets/icons/ios/Outline_Version/layers.svg);
+    @extend .icons;
+}
+
+i.icons_ios_notebook-2 {
+    background: url(/assets/icons/ios/Outline_Version/notebook-2.svg);
+    @extend .icons;
+}
+
+
+/* image page icons */
+
+.icons_pixo_side_menu {
+    background: url(/assets/icons/pixo/icons_pixo_side_menu.svg);
+    @extend .icons;
+}
+
+.icons_pixo_download-35 {
+    background: url(/assets/icons/pixo/icons_pixo_download-35.svg);
+    @extend .icons;
+}
+
+.icons_pixo_details {
+    background: url(/assets/icons/pixo/icons_pixo_details.svg);
+    @extend .icons;
+}
+
+.icons_pixo_cancel {
+    background: url(/assets/icons/pixo/icons_pixo_cancel.svg);
+    @extend .icons;
+}
+
+.icons_pixo_back_arrow {
+    background: url(/assets/icons/pixo/icons_pixo_back_arrow.svg);
+    @extend .icons;
+}
+
+.icons_pixo_next_arrow {
+    background: url(/assets/icons/pixo/icons_pixo_next_arrow.svg);
+    @extend .icons;
+}
+
+.icons_pixo_fullscreen {
+    background: url(/assets/icons/pixo/icons_pixo_fullscreen.svg);
+    @extend .icons;
+}
+
+.icons_pixo_Add {
+    background: url(/assets/icons/pixo/icons_pixo_Add.svg);
+    @extend .icons;
+}
+
+i.icons_pixo_videos_large {
+    background: url(/assets/icons/pixo/icons_pixo_videos_large.svg);
+    @extend .icons_large;
+}
+
+i.icons_pixo_people_large {
+    background: url(/assets/icons/pixo/icons_pixo_people_large.svg);
+    @extend .icons_large;
+}
+
+i.icons_pixo_location_large {
+    background: url(/assets/icons/pixo/icons_pixo_location_large.svg);
+    @extend .icons_large;
+}
+
+i.icons_pixo_search_large {
+    background: url(/assets/icons/pixo/icons_pixo_search_large.svg);
+       @extend .icons_large;
+}
+
+/* temp icons */
+
+.icons_restore {
+    background: url(/assets/images/restore.svg);
+    @extend .icons;
+}
+
+.icons_play-button {
+    background: url(/assets/images/play-button.svg) no-repeat;
+    width: 40px;
+    height: 40px;
+    background-size: 90%;
+}
+
+.icons_right-icon {
+    background: url(/assets/images/right-icon.svg) no-repeat;
+}
+
+.icons_settings {
+    background: url(/assets/images/settings.svg);
+    @extend .icons;
+}
+
+
+
+
+/*
+.icons_pixo_photos_color {
+    background: url(/assets/icons/pixo/icons_pixo_photos_color.svg) no-repeat;
+}
+
+.icons_pixo_video_color {
+    background: url(/assets/icons/pixo/icons_pixo_video_color.svg) no-repeat;
+}
+*/

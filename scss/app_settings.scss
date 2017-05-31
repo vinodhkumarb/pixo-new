@@ -1,0 +1,188 @@
+@charset 'utf-8';
+@import 'settings';
+@import 'foundation';
+@include foundation-global-styles;
+@include foundation-grid;
+@include foundation-typography;
+@include foundation-button;
+@include foundation-forms;
+@include foundation-close-button;
+@include foundation-menu;
+@include foundation-menu-icon;
+@include foundation-reveal;
+@include foundation-progress-bar;
+@include foundation-float-classes;
+@include foundation-callout;
+@include foundation-media-object;
+@include foundation-table;
+@include foundation-visibility-classes;
+
+/* Pixo style */
+
+
+/* header */
+
+header {
+    padding: $headbar-padding;
+    background: $headbar-background;
+    border-bottom: $headbar-border-bottom;
+}
+
+
+
+/* footer */
+
+footer {
+    margin-top: ($global-padding * 6);
+    padding: ($global-padding * 3) 0 ($global-padding * 2) 0;
+    border-top: 1px solid #eceded;
+    background-color: $white;
+    a {
+        color: $light-gray;
+        &:hover {
+            color: $medium-gray;
+        }
+    }
+    strong {
+        color: $medium-gray;
+        line-height: $global-padding * 2;
+    }
+}
+
+
+/* form common filed start */
+
+@media only screen and (min-width:1000px) {
+    .form-left {
+        padding-left: 0.5357rem;
+    }
+    .form-right {
+        padding-right: 0.5357rem;
+    }
+    .padding0 {
+        padding: 0px;
+    }
+}
+
+
+/* form common filed end */
+
+
+/* settings page */
+
+.settings {
+    padding-top: 3rem;
+    .media-object-section {
+        img {
+            width: 128px;
+            height: 128px;
+            ;
+        }
+        .edit {
+            margin-bottom: 0px;
+            h5 {
+                margin-bottom: 0px;
+            }
+        }
+    }
+    .sessions {
+        tbody {
+            tr {
+                border-bottom: 1px solid smart-scale($table-background, $table-color-scale);
+                ;
+            }
+        }
+    }
+}
+
+
+/* upload modal */
+
+.upload {
+    padding: $upload-padding;
+    h5 {
+        margin-bottom: 0px;
+    }
+    p {
+        margin-bottom: 0;
+        padding: 5px 0px 31px 0px;
+    }
+    button {
+        margin-left: 1rem;
+    }
+}
+
+
+/* upload file modal */
+
+.upload-files {
+    padding: $upload-padding + 1;
+    h5 {
+        margin-bottom: 0px;
+        padding-top: 6px;
+    }
+    .button {
+        margin: 0;
+    }
+    button {
+        margin: 0;
+    }
+    .uploads {
+        height: 340px;
+        overflow: auto;
+        .upload-list {
+            border-bottom: 1px solid $light-gray;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            display: table;
+            vertical-align: middle;
+                width: 668px;
+            .upload-file-name {
+                width: 540px;
+                float: left;
+                span {
+                    padding-left: 2.5rem;
+                }
+                .images-upload {
+                    .icons_pixo_photos_color {
+                        background: url(/assets/icons/pixo/icons_pixo_photos_color.svg) no-repeat;
+                    }
+                }
+                .video-upload {
+                    .icons_pixo_video_color {
+                        background: url(/assets/icons/pixo/icons_pixo_video_color.svg) no-repeat;
+                    }
+                }
+            }
+            .upload-file-path {
+                width: 88px;
+                float: left;
+            }
+            .upload-file-status {
+                width: 40px;
+                float: left;
+                cursor: pointer;
+                .icons_pixo_chechmark_color {
+                    background: url(/assets/icons/pixo/icons_pixo_chechmark_color.svg) no-repeat;
+                    width: 24px;
+                    height: 24px;
+                }
+                .icons_pixo_cancel_circle {
+                    background: url(/assets/icons/pixo/icons_pixo_cancel_circle.svg) no-repeat;
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+            .upload-progress {
+                padding-top: 2.1rem;
+                display: none;
+            }
+        }
+    }
+}
+
+
+
+/* share modal */
+
+.share {}

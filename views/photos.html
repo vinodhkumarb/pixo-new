@@ -1,0 +1,460 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="stylesheet" href="/assets/css/icons.css">
+    <link rel="stylesheet" href="/assets/icons/foundation-icons.css">
+    <script src="https://use.typekit.net/pkg1pwr.js"></script>
+    <script>
+        try {
+            Typekit.load({
+                async: true
+            });
+        } catch (e) {}
+    </script>
+</head>
+
+<body class="app">
+
+    <!-- header -->
+
+   <section>
+   
+    <div id="header" class="row">
+        <div class="small-3 medium-3 columns">
+            <img src="/assets/images/logo.svg" alt="" class="logo" />
+        </div>
+        <div class="small-13 medium-13 columns">
+            <div class="row">
+                <div class="small-8 medium-10 columns">
+                    <div class="search">
+                        <form>
+                            <input type="text" placeholder="search">
+                            <i class="icons_pixo_search"></i>
+                        </form>
+                    </div>
+                </div>
+                <div class="small-4 medium-4 columns">
+                    <ul class="menu up-new">
+                        <li>
+                            <a href="#">
+                                <label for="exampleFileUpload"><i class="icons_pixo_upload-34"></i><span>Upload</span></label>
+                            </a>
+                            <input type="file" id="exampleFileUpload" class="show-for-sr">
+                        </li>
+                    </ul>
+                </div>
+                <div class="small-4 medium-2 columns">
+                    <div class="clearfix">
+                        <ul class="menu head float-right">
+                            <li><a href="#"><i class="icons_pixo_notifications"></i></a></li>
+                            <li>
+                                <div class="profile">
+                                    <img src="/assets/images/profile.jpg" />
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row columns">
+        <hr />
+    </div>
+
+   </section>
+
+    <!-- content -->
+
+    <div id="content" class="row">
+        <div id="left-panel" class="small-3 medium-3 columns">
+            <div id="menu">
+                <ul class="menu vertical">
+                    <li><a href="/views/app.html"><i class="icons_pixo_folder"></i><span>All files</span></a></li>
+                    <li><a href="#"><i class="icons_pixo_favourites"></i><span>Favorites</span></a></li>
+                </ul>
+
+                <ul class="menu vertical">
+                    <li><a href="/views/photos.html"><i class="icons_pixo_photos"></i><span>Photos</span></a></li>
+                    <li><a href="/views/videos.html"><i class="icons_pixo_videos"></i><span>Videos</span></a></li>
+                    <li><a href="/views/people.html"><i class="icons_pixo_people"></i><span>Peoples</span></a></li>
+                    <li><a href="/views/places.html"><i class="icons_pixo_location"></i><span>Places</span></a></li>
+                </ul>
+                <ul class="menu vertical">
+                    <li class="left-panel-sub-head">
+                        <h6>SHARED</h6></li>
+                </ul>
+
+
+                <ul class="menu vertical">
+                    <li><a href="#"><i class="icons_pixo_shared_with_me"></i><span>Shared with me</span></a></li>
+                    <li><a href="#"><i class="icons_pixo_shared_by_me"></i><span>Shared by me</span></a></li>
+                    <li><a href="#"><i class="icons_pixo_link"></i><span>My links</span></a></li>
+                    <li><a href="/views/trash.html"><i class="icons_pixo_trash"></i><span>Trash</span></a></li>
+
+                </ul>
+
+            </div>
+        </div>
+
+        <!-- content row -->
+
+
+        <div id="right-panel" class="small-13 medium-13 columns">
+
+            <div class="row">
+                <div id="right-panel-header">
+                    <div class="small-10 columns">
+                        <nav aria-label="You are here:" role="navigation">
+                            <ul class="breadcrumbs">
+                                <li><a href="#">All Files</a></li>
+                                <li><a href="#">Jun 2015</a></li>
+                                <li>
+                                    <span class="show-for-sr">Current: </span> Goa Trip
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="small-6 columns">
+                        <div class="float-right clearfix">
+
+                            <ul class="menu">
+                                <li><a href="#"><i class="icons_pixo_edit"></i></a></li>
+                                <li><a href="#"><i class="icons_pixo_share"></i></a></li>
+                                <li><a href="#"><i class="icons_pixo_trash"></i></a></li>
+                                <li><a href="#"><i class="cons_button_switch_vertical"></i></a></li>
+                                <li class="img-zoom">
+                                    <div class="slider" data-slider data-initial-start="50" data-end="200">
+                                        <span class="slider-handle" data-slider-handle role="slider" tabindex="1" style="left:25%;"></span>
+                                        <span class="slider-fill" data-slider-fill style="width:25%;"></span>
+                                        <input type="hidden">
+                                    </div>
+                                </li>
+                                <li><a href="#"><i class="icons_pixo_add_album"></i></a></li>
+                                <li><a href="#"><i class="icons_pixo_sort"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+            <!--  
+               float right
+                           <div id="right-panel-header">
+                <div class="float-right clearfix">
+                    <ul class="menu">
+                        <li><a href="#"><i class="icons_pixo_add_album"></i></a></li>
+                        <li class="img-zoom">
+                            <div class="slider" data-slider data-initial-start="50" data-end="200">
+                                <span class="slider-handle" data-slider-handle role="slider" tabindex="1" style="left:25%;"></span>
+                                <span class="slider-fill" data-slider-fill style="width:25%;"></span>
+                                <input type="hidden">
+                            </div>
+                        </li>
+                        <li><a href="#"><i class="icons_pixo_add_album"></i></a></li>
+                        <li><a href="#"><i class="icons_pixo_sort"></i></a></li>
+                    </ul>
+                </div>
+                <div class="">
+                    <nav aria-label="You are here:" role="navigation">
+                        <ul class="breadcrumbs">
+                            <li><a href="#">All Files</a></li>
+                            <li><a href="#">Jun 2015</a></li>
+                            <li class="disabled">Goa Trip</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+ -->
+
+
+            <div id="right-panel-content">
+                <div class="pixo-app-items">
+
+
+                    <div class="t">
+                        <div class="m">
+                            <img src="/assets/images/profile.jpg" />
+                        </div>
+                        <div class="sh">
+                            <a href="#">
+                                <div class="icons_pixo_chechmark_color"></div>
+                            </a>
+                        </div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><span class="label">V2</span> <small>  5.5 MB</small></div>
+                    </div>
+
+                    <div class="t">
+                        <div class="m">
+                            <img src="/assets/images/profile3.jpg">
+
+                            <div class="p">
+                                <div class="plbg"></div>
+                                <div class="pltr"></div>
+                            </div>
+
+                        </div>
+                        <!-- <div class="p"><img src="/assets/images/video-play.png" alt="" /></div> -->
+                        <div class="pt">10:20</div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile4.jpeg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile5.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile6.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile7.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile8.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile9.jpeg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile10.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile11.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile12.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile13.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="date-heading">
+                        <h4>04 July 2016</h4>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile14.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile15.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile16.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile17.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile18.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile12.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile7.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile8.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile9.jpeg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile15.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile3.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile6.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile9.jpeg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile8.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile5.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile16.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile15.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="date-heading">
+                        <h4>20 Aug 2016</h4>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile17.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile13.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile15.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile11.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile6.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile8.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile9.jpeg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile5.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile3.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile15.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="date-heading">
+                        <h4>15 June 2016</h4>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile3.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile6.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile9.jpeg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile8.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                    <div class="t">
+                        <div class="m"><img src="/assets/images/profile5.jpg"></div>
+                        <div class="l">asdf9685.jpg</div>
+                        <div class="s"><small>5.5 MB</small></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/what-input/what-input.js"></script>
+    <script src="bower_components/foundation-sites/dist/foundation.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
